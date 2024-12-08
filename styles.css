@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body {
+    box-sizing: border-box;
+    margin-left: 0px;
+    background: black;
+    color: white;
+    overflow-x: hidden;
+    padding-bottom: 300px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(206, 48, 48);
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .2s;
+}
+.nav a:hover {
+    color: gray;
+    transition: o.2s;
+}    
+.slash {
+    border-left: 4px solid blue;
+    color: green;
+}
+.logo {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    height: 20rem;
+    line-height: 30px;
+}
+.img, .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    position: relative;
+    right: 20px;
+
+}
+.text {
+    margin-left: 10px;
+}
+.btn {
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: rgb(153, 35, 51);
+    border-radius: 20px;
+    transition: .2s ease-in-out;
+}
+.btn:hover {
+    box-shadow: 0px 0px 25px red;
+    transition: .2s;
+}
+.about, .contact {
+    display: flex;
+    padding-top: 30px;
+    border-top: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    border: 10px 5px red;
+    height: 300px;
+    position: relative;
+    
+}
+ h1 {
+    color: rgb(216, 82, 82);
+}
+.about p {
+    text-align: center;
+}
+.project {
+    display: flex;
+    padding-top: 30px;
+    border-top: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    border: 10px 5px red;
+    position: relative;
+    
+}
+.project h1 {
+}
+.container {
+    width: 300px;
+    margin-top: 10px;
+}
+.container-content {
+}
+.project-img {
+    width: 300px;
+    align-items: center;
+}
+.contact input, select, textarea{
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 30px;
+
+
+}
+input::placeholder {
+    margin-left: 10px;
+}
+
